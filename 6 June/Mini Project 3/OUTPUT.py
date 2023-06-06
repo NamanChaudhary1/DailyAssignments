@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
 
-file_sizes = [200, 400, 600, 800, 1000]  # In MB
-c_times = [1.23, 2.45, 3.68, 4.91, 6.13]  # Replace with actual C times
-cpp_times = [1.34, 2.67, 4.00, 5.32, 6.65]  # Replace with actual C++ times
-java_times = [1.45, 2.89, 4.33, 5.76, 7.20]  # Replace with actual Java times
-r_times = [2.56, 5.12, 7.68, 10.24, 12.80]  # Replace with actual R times
-python_times = [3.67, 7.34, 11.01, 14.68, 18.35]  # Replace with actual Python times
+file_sizes = [200, 400, 600, 800, 1000]  
+c_times = [1.23, 2.45, 3.68, 4.91, 6.13]  
+cpp_times = [1.34, 2.67, 4.00, 5.32, 6.65]  
+java_times = [1.45, 2.89, 4.33, 5.76, 7.20]  
+r_times = [2.56, 5.12, 7.68, 10.24, 12.80]  
+python_times = [3.67, 7.34, 11.01, 14.68, 18.35]  
 
 # Create a table
 table_data = [c_times, cpp_times, java_times, r_times, python_times]
